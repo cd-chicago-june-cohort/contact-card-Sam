@@ -1,0 +1,27 @@
+<html>
+   <head>
+        <title>Contact Card</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <script src='http://code.jquery.com/jquery-1.10.2.min.js'></script> 
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Virtual Address Book</h1>
+        <div id="left">
+            <form>
+            <label for="first-name">First Name:</label>
+            <input class="info" type="text" id="first-name" name="first-name">
+           
+            <label for="last-name">Last Name:</label>
+            <input class="info" type="text" id="last-name" name="last-name">
+            
+            <p>Description:</p>
+            <textarea class="info" type="text" id="desc" name="desc"></textarea>
+
+            <input id="add" type="submit" value="Add Contact">
+            </form>
+        </div>
+        <div id="right"></div>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+h1{
+    width: 400px;
+    margin: auto;
+}
+
+#left {
+    width: 400px;
+    height: 100%;
+    display: inline-block;
+    padding: 20px;
+    background: red;
+    vertical-align: top;
+}
+
+#right {
+    width: 600px;
+    height: 100%;
+    display: inline-block;
+    padding: 20px;
+    background: lightblue; 
+    vertical-align: top;
+}
+
+#add {
+    margin-top: 20px;
+}
+
+.contact-square {
+    width: 260px;
+    height: 110px;
+    border: 5px solid lime;
+    padding: 20px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contact-square p {
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
